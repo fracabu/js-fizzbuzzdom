@@ -21,6 +21,6 @@ for (let i = 0; i <= 100; i++) {
 }
 
 
-letElementoBox = document.getElementById("box")
-elementoBox.innerText=Fizz;
-console.log(elementoBox);
+document.getElementById("box") 
+const squareBox = document.getElementById("box")
+squareBox.innerHTML = "box1" + "box2";
