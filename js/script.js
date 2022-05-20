@@ -19,3 +19,8 @@ for (let i = 0; i <= 100; i++) {
     else console.log(i);
 
 }
+
+
+letElementoBox = document.getElementById("box")
+elementoBox.innerText=Fizz;
+console.log(elementoBox);
